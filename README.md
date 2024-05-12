@@ -81,3 +81,13 @@ How would this affect the current plan upgrade calculation?
 
 ### answer here:
 ---
+
+Adding `defaultUsers` and `pricePerUser` to plans means:
+
+1. **`defaultUsers`:** The number of users included by default in a plan.
+2. **`pricePerUser`:** The cost for each additional user beyond the default.
+
+When upgrading plans with different default users or price per user:
+
+- The prorated upgrade price considers changes in default users and the new price for additional users.
+- Users pay for any increase in default users and the updated price for additional users.
